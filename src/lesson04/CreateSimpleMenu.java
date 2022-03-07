@@ -40,9 +40,10 @@ public class CreateSimpleMenu {
                 case 2:
                     //System.out.println("Print");
                     if (myArrayList.size()>0) {
-                        for (Integer integer : myArrayList) {
-                            System.out.println(integer);
-                        }
+                        //for (Integer integer : myArrayList) {
+                        //    System.out.println(integer);
+                        //}
+                        System.out.println(myArrayList);
                     }else  {
                         System.out.println("Array list is empty");
                     }
